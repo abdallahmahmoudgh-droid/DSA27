@@ -16,7 +16,8 @@ lang: en
 > depth-first search, and the parser in the final week.
 >
 > Slides: `DSA27-L03-slides.pdf` · Code: `dsa/recursion.py` ·
-> Tests: `tests/test_recursion.py` · Lab: Lab 03, Part 10
+> Tests: `tests/test_recursion.py` · Lab: Lab 03, Part 10 ·
+> Interactive demo: [Recursion Lab](https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html)
 
 :::
 
@@ -178,6 +179,47 @@ function call in every program you write; recursion only makes it visible.
 line in VS Code, press F5 and step with F11. The *Call Stack* panel shows one
 `factorial` frame per call, each with its own `n`. Lab 03, Part 10.4 walks you
 through it.
+
+:::
+
+## Watch it run: the Recursion Lab
+
+[**Recursion Lab**](https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html) — open it in any browser.
+
+- The code, the **call stack** and the **recursion tree**, one step at a time
+- **Step over** a call: trust the recursion
+- *What happens next?* — answer before you step
+- Nine scenarios that **go wrong**: no base case, no progress, a missing
+  `return`, a wrong base value, hidden $O(n^2)$…
+
+::: {.handout-only}
+
+The Recursion Lab is the demo used in the lecture. It runs every example in
+this handout, plus nine broken versions, and shows each step: the line that
+runs, every frame on the stack with its own variables, and the tree of calls
+growing. Use it to check your hand traces.
+
+- **Online:** <https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html>
+- **Offline:** open `docs/lectures/03-recursion/recursion-lab.html` from your
+  copy of the repository. It is a single file and needs no installation.
+
+How to use it:
+
+- Pick a scenario at the top. Change the input in the `>>>` line and press
+  **Run**.
+- **Step** (→) moves one step and **Back** (←) undoes it. **Step over** (O)
+  runs a whole call in one step: *Trust the recursion*, made visible.
+  **Step out** (U) finishes the current call. Click any node of the tree to jump
+  to the moment that call started.
+- At the key moments the demo stops with a question. Answer it (A–D) **before**
+  you look; that is where the learning happens.
+
+What to try, in order: `factorial` (winding and unwinding), `fib` against
+`fib_memo` (watch the calls counter), and then every scenario under *Goes
+wrong*. For each broken one, find the bug in the code **before** you step.
+
+Two scenarios, fast `power` and Hanoi, show code that solves an exercise in
+`dsa/recursion.py`. Write your own version first.
 
 :::
 

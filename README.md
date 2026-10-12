@@ -30,7 +30,7 @@ Dynamic programming is included as enrichment.
 | [Coverage matrix](docs/course/02-coverage.md) | Every topic the لائحة declares → module → test |
 | [Lecture 01 — Why This Course, and Why Python](docs/lectures/01-why-this-course/lecture.md) | [handout PDF](docs/pdf/DSA27-L01-handout.pdf) · [slides PDF](docs/pdf/DSA27-L01-slides.pdf) |
 | [Lecture 02 — Complexity, and the Array](docs/lectures/02-complexity-and-arrays/lecture.md) | [handout PDF](docs/pdf/DSA27-L02-handout.pdf) · [slides PDF](docs/pdf/DSA27-L02-slides.pdf) |
-| [Lecture 03 — Recursion](docs/lectures/03-recursion/lecture.md) | [handout PDF](docs/pdf/DSA27-L03-handout.pdf) · [slides PDF](docs/pdf/DSA27-L03-slides.pdf) |
+| [Lecture 03 — Recursion](docs/lectures/03-recursion/lecture.md) | [handout PDF](docs/pdf/DSA27-L03-handout.pdf) · [slides PDF](docs/pdf/DSA27-L03-slides.pdf) · [interactive demo](https://helghareeb.github.io/DSA27/lectures/03-recursion/recursion-lab.html) |
 | [Lecture 04 — Dynamic Arrays](docs/lectures/04-dynamic-arrays/lecture.md) | [handout PDF](docs/pdf/DSA27-L04-handout.pdf) · [slides PDF](docs/pdf/DSA27-L04-slides.pdf) |
 | [Lecture 05 — Linked Lists](docs/lectures/05-linked-lists/lecture.md) | [handout PDF](docs/pdf/DSA27-L05-handout.pdf) · [slides PDF](docs/pdf/DSA27-L05-slides.pdf) |
 | [Lecture 06 — Stacks](docs/lectures/06-stacks/lecture.md) | [handout PDF](docs/pdf/DSA27-L06-handout.pdf) · [slides PDF](docs/pdf/DSA27-L06-slides.pdf) |
