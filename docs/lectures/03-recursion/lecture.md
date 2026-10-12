@@ -60,7 +60,7 @@ nothing.
 
 ## A definition that uses itself
 
-$$n! = \begin{cases} 1 & \text{if } n = 0 \\ n \times (n-1)! & \text{if } n > 0 \end{cases}$$
+$$n! = \begin{cases} 1 & \text{if } n = 0 \cr n \times (n-1)! & \text{if } n > 0 \end{cases}$$
 
 ```python
 def factorial(n):
@@ -533,6 +533,33 @@ the code is yours.
 :::
 
 # Branching Recursion
+
+## Towers of Hanoi: the puzzle
+
+Three pegs, n disks of different sizes, all stacked on the first peg, largest
+at the bottom. **Goal:** move the whole tower to another peg.
+
+- Move **one disk** at a time: the top disk of a peg
+- **Never** put a larger disk on a smaller one
+- The third peg is your **spare**
+
+![A wooden Tower of Hanoi with 8 disks (photo: Evanherk, Wikimedia Commons, CC BY-SA 3.0)](figures/tower-of-hanoi.jpeg){width=62%}
+
+<p align="center"><img src="figures/hanoi-4.gif" alt="Animated solution of the Tower of Hanoi with 4 disks: 15 moves" width="480"></p>
+
+::: {.handout-only}
+
+**Watch the solution.** The animation solves the puzzle for 4 disks in 15 moves
+([open the animation](https://helghareeb.github.io/DSA27/lectures/03-recursion/figures/hanoi-4.gif);
+André Karwath, Wikimedia Commons, CC BY-SA 2.5). Watch the largest disk: it
+moves exactly **once**, in the middle (move 8). Before that move, the 3 smaller
+disks have all gone to the spare peg; after it, they come back on top of it.
+That is the whole algorithm on the next slide.
+
+The puzzle was published by the French mathematician Édouard Lucas in 1883. Try
+n = 3 by hand before you read on: can you do it in 7 moves?
+
+:::
 
 ## Towers of Hanoi
 
